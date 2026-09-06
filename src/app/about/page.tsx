@@ -4,14 +4,14 @@ export default function About() {
   return (
     <div className="flex flex-col md:flex-row items-stretch justify-between px-8 md:px-16 lg:px-24 py-12 min-h-[calc(100vh-100px)] gap-16">
       {/* Left Image */}
-      <div className="w-full md:w-1/2 relative min-h-[500px] md:min-h-full flex items-center">
-        <div className="absolute top-1/4 -left-12 w-1/2 h-1/2 bg-[#b8c5a6] -z-10"></div>
-        <div className="relative w-full h-full min-h-[600px]">
+      <div className="w-full md:w-1/2 relative min-h-[400px] md:min-h-full flex items-center mt-4 md:mt-0 order-2 md:order-1">
+        <div className="absolute top-[10%] md:top-1/4 -left-4 md:-left-12 w-3/4 md:w-1/2 h-3/4 md:h-1/2 bg-[#b8c5a6] -z-10"></div>
+        <div className="relative w-full h-[400px] md:h-full md:min-h-[600px]">
           <Image
             src="/images/portfolio/42fd4227-fb25-4c79-b668-fce01fc073d3.JPG"
             alt="Anita Mittal Gupta meeting"
             fill
-            className="object-cover border-[16px] border-[#F2F1EC]"
+            className="object-cover border-[8px] md:border-[16px] border-[#F2F1EC]"
           />
         </div>
       </div>

@@ -24,9 +24,9 @@ export default function Home() {
       </div>
 
       {/* Right Image */}
-      <div className="w-full md:w-1/2 relative mt-16 md:mt-0 h-[600px] flex items-center justify-end">
-        <div className="absolute top-0 right-0 w-3/4 h-[500px] bg-[#b8c5a6] -z-10"></div>
-        <div className="relative w-[90%] h-[400px] shadow-lg">
+      <div className="w-full md:w-1/2 relative mt-16 md:mt-0 h-[400px] md:h-[600px] flex items-center justify-end">
+        <div className="absolute top-0 right-0 w-[85%] md:w-3/4 h-[300px] md:h-[500px] bg-[#b8c5a6] -z-10"></div>
+        <div className="relative w-full md:w-[90%] h-[300px] md:h-[400px] shadow-lg">
           <Image
             src="/images/portfolio/cc5ae88b-2561-4488-8ab1-cffd3cb0f0fa.JPG" alt="Anita Mittal Gupta"
             fill
