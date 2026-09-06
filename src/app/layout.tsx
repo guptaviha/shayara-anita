@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} ${greatVibes.variable} font-sans bg-[#FAF9F6] text-[#333333] antialiased min-h-screen flex flex-col`}
       >
-        <header className="w-full px-6 md:px-16 lg:px-24 py-6 md:py-8 flex justify-center md:justify-end items-center z-10">
+        <header className="w-full px-6 md:px-16 lg:px-24 py-6 md:py-8 flex justify-center items-center z-10">
           <nav className="flex flex-wrap justify-center gap-4 md:gap-8 text-xs md:text-sm uppercase tracking-widest font-medium text-gray-500">
             <Link href="/" className="hover:text-gray-900 transition-colors">Home</Link>
             <Link href="/about" className="hover:text-gray-900 transition-colors">About Me</Link>
